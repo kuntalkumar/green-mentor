@@ -1,14 +1,14 @@
 const express = require("express");
 const bcrypt = require("bcrypt"); 
 const jwt = require("jsonwebtoken"); 
-
+const cors=require("cors")
 const app = express();
+
 const {  UserModel } = require('./Model/User.js');
 const { TodoModel } = require('./Model/Todo.js');
 
 const { connection } = require('./Config/db.js');
 
-const cors = require("cors");
 app.use(express.json());
 
 app.use(cors({

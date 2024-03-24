@@ -8,7 +8,7 @@ Green Mentor is a full-stack MERN (MongoDB, Express.js, React, Node.js) applicat
 - Todo management (add, edit, delete, view)
 - Responsive user interface
 
-Technologies Used
+##Technologies Used
 MongoDB: Database for storing user data and todos.
 Express.js: Node.js web application framework for building the backend API.
 React: Frontend library for building user interfaces.
